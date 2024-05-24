@@ -2,7 +2,7 @@
 Web Development Technologies | HTML &amp; CSS Fundamentals of Software Development
 
 # Notes:
-Topics : HTML & CSS
+Topics : HTML & CSS [TODO: add home page to browse through all html file]
 
 1. HTML
 Hypertext Markup Language
@@ -74,4 +74,38 @@ browser loads the page in the HREF attribute.
 - <sub></sub>   - Subscript Text
 - <sup></sup>   - Superscript Text
 
-# HTML - Example: Formatting Tags[exercise-4] ->
+# HTML - Example: Formatting Tags[exercise-4] -> comepleted
+
+# HTML - Comments
+- Comments are contained in <!--    -->
+- Example:
+    <!-- This is a comment and does not affect rendering of the page -->
+
+
+# HTML - Styles
+- Style information can be included in tags with the 'style='attribute
+- Format : <tag style="attr1:value1; attr2:value2"> text text text </tag>
+    - attr1 & attr2 are style property names
+    - value1 & value 2 are values to attach to the properties
+- Most common style attributes:
+    - background-color: for background color
+    - color : for text color
+    - font-family : for text fonts
+    - font-size : for text sizes
+    - text-align : for text alignment
+<p style="background-color:green; color:red"> Paragraph Text. </p>
+- Using CSS (Cascading Style Sheets) is actually much easier and less error prone
+
+# HTML - Tables
+- HTML Supports creating tables
+    - Tags:
+       - <table></table>    - Encloses the entire contents of the table
+       - <tr></tr>          - These bracket a 'row' of data cells
+       - <th></th>          - These tags support a row used specifically for column heading
+       - <td></td>          - These tags go around data for a specific cell
+       - <caption>          - This defines a table caption
+
+# HTML - Example: Tables[exercise-6] -> completed
+
+--page 23/65 [Day 1] : Target 4 hours/day on each tech
+--practice
